@@ -17,31 +17,31 @@
     <!-- Full name -->
     <div class="input-container">
       <div class="first-name input-group">
-        <label class="flex-item" for="first-name">First name <span class="red-star">*</span></label>
-        <input class="flex-item" type="text" name="first-name" id="first-name" placeholder="ex. Juan" required>
+        <label class="label" for="first-name">First name <span class="red-star">*</span></label>
+        <input class="input" type="text" name="first-name" id="first-name" placeholder="ex. Juan" required>
       </div>
 
       <div class="middle-name input-group">
-        <label for="first-name">Middle name <span class="red-star">*</span></label>
-        <input type="text" name="first-name" id="first-name" placeholder="ex. Dela Cruz" required>
+        <label class="label" for="first-name">Middle name <span class="red-star">*</span></label>
+        <input class="input" type="text" name="first-name" id="first-name" placeholder="ex. Dela Cruz" required>
       </div>
 
       <div class="last-name input-group">
-        <label class="flex-item" for="first-name">Last name <span class="red-star">*</span></label>
-        <input class="flex-item" type="text" name="first-name" id="first-name" placeholder="ex. Dela Cruz" required>
+        <label class="label" for="first-name">Last name <span class="red-star">*</span></label>
+        <input class="input" type="text" name="first-name" id="first-name" placeholder="ex. Dela Cruz" required>
       </div>
     </div>
 
     <!-- Date of birth, Sex -->
     <div class="input-container">
       <div class="date input-group">
-        <label for="date">Date of Birth <span class="red-star">*</span></label>
-        <input type="date" name="date" id="date" required>
+        <label class="label" for="date">Date of Birth <span class="red-star">*</span></label>
+        <input class="input" type="date" name="date" id="date" required>
       </div>
 
       <div class="sex input-group">
-        <label for="sex">Sex <span class="red-star">*</span></label>
-        <select name="sex" id="sex">
+        <label class="label" for="sex">Sex <span class="red-star">*</span></label>
+        <select class="input" name="sex" id="sex">
           <option value="Male">Male</option>
           <option value="Female">Female</option>
         </select>
@@ -51,21 +51,21 @@
     <!-- Email, Contact number -->
     <div class="input-container">
       <div class="email input-group">
-        <label for="email">Email <span class="red-star">*</span></label>
-        <input type="text" name="email" id="email" placeholder="ex. juan.delacruz@gmail.com" required>
+        <label class="label" for="email">Email <span class="red-star">*</span></label>
+        <input class="input" type="text" name="email" id="email" placeholder="ex. juan.delacruz@gmail.com" required>
       </div>
 
       <div class="contact input-group">
-        <label for="contact">Contact <span class="red-star">*</span></label>
-        <input type="text" name="contact" id="contact" placeholder="ex. 09123456789" required>
+        <label class="label" for="contact">Contact <span class="red-star">*</span></label>
+        <input class="input" type="text" name="contact" id="contact" placeholder="ex. 09123456789" required>
       </div>
     </div>
 
     <!-- Programs -->
     <div class="input-container">
       <div class="programs-input-group">
-        <label for="programs">Programs Applying for: <span class="red-star">*</span></label>
-        <select name="programCode" style="width:100%" required="required">
+        <label class="label" for="programs">Programs Applying for: <span class="red-star">*</span></label>
+        <select class="input" id="programs" name="programCode" style="width:100%" required="required">
           <option value="AB THEO">Bachelor of Arts in Theology</option>
           <option value="AT-NC II">Automotive Servicing NC II</option>
           <option value="BA ENG">Bachelor of Arts in English Language</option>
@@ -112,16 +112,16 @@
     <!-- Term, Student status -->
     <div class="input-container">
       <div class="term input-group">
-        <label for="term">Term Applying for: <span class="red-star">*</span></label>
-        <select name="term" id="term">
+        <label class="label" for="term">Term Applying for: <span class="red-star">*</span></label>
+        <select class="input" name="term" id="term">
           <option value="first-semester">1st Semester</option>
           <option value="second-semester">2nd Semester</option>
         </select>
       </div>
 
       <div class="status input-group">
-        <label for="status">Sex <span class="red-star">*</span></label>
-        <select name="status" id="status">
+        <label class="label" for="status">Applying as: <span class="red-star">*</span></label>
+        <select class="input" name="status" id="status">
           <option value="old">Old student</option>
           <option value="new">New student</option>
         </select>
@@ -129,7 +129,7 @@
     </div>
 
     <div class="button-container">
-      <button id="submit">Submit</button>
+      <button class="input" id="submit">Submit</button>
     </div>
 
 
