@@ -3,7 +3,7 @@
 }
 
 html {
-    font-family: 'Open Sans','Segoe UI',sans-serif;
+    font-family: 'Open Sans', 'Segoe UI', sans-serif;
 }
 
 body {
@@ -23,7 +23,7 @@ body {
     padding: 20px;
     background-color: #ffffff;
     border-radius: 5px;
-    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .registration-form h1 {
@@ -49,7 +49,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    margin: 5px 0; 
+    margin: 5px 0;
 }
 
 .input-group {
@@ -71,7 +71,8 @@ input {
     outline: none;
 }
 
-input:hover, input:focus {
+input:hover,
+input:focus {
     border: 1px solid tomato;
 }
 
@@ -86,16 +87,25 @@ input:hover, input:focus {
     margin-top: 5px;
 }
 
-#term, #status, #programs, #sex {
+#term,
+#status,
+#programs,
+#sex {
     padding: 10px;
     outline: none;
 }
 
-#term:hover, #status:hover, #programs:hover, #sex:hover {
+#term:hover,
+#status:hover,
+#programs:hover,
+#sex:hover {
     border: 1px solid tomato;
 }
+
 span {
     color: tomato;
+    font-weight: 600;
+    font-size: 10pt;
 }
 
 .button-container {
@@ -105,7 +115,29 @@ span {
 
 
 #submit {
-    border-radius: 3px;
+    border-radius: 5px;
     padding: 10px;
-    margin: 5px;
+    margin: 10px 0;
+    font-weight: 600;
+    color: #f6f6f6;
+    background-color: tomato;
+    border: none;
+    cursor: pointer;
+}
+
+#submit:focus {
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+#submit:hover {
+    transform: translateY(-1px);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: #fb7832;
+}
+
+#submit:active {
+    background-color: #c85000;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
 }
