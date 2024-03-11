@@ -91,7 +91,7 @@ input:focus {
 #status,
 #programs,
 #sex {
-    -webkit-appearance: none;
+    --webkit-appearance: none;
     padding: 10px;
     outline: none;
     background-image: url(./img/caret-down.svg);
@@ -118,7 +118,6 @@ span {
     display: flex;
     justify-content: flex-end;
 }
-
 
 #submit {
     border-radius: 5px;
