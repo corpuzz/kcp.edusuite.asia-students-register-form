@@ -9,7 +9,6 @@ html {
 body {
     margin: 0;
     width: 100vw;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -145,4 +144,26 @@ span {
     background-color: #c85000;
     box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
     transform: translateY(0);
+}
+
+@media (max-width: 600px) {
+    body {
+        width: 100%;
+    }
+    .input-group {
+        flex-basis: 100%;
+    }
+
+    .registration-form {
+        width: 100%;
+        margin: 4%;
+        overflow-x: hidden;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        height: 100vh;
+    }
 }
